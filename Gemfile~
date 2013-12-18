@@ -16,10 +16,10 @@ end
 gem 'jquery-rails', '2.0.1'
 
 group :test do
-  'capybara', '1.1.2'
+  gem 'capybara', '1.1.2'
 end
 
 group :production do
-  'pg', '0.12.2'
+  gem 'pg', '0.12.2'
 end
 
