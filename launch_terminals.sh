@@ -1,0 +1,1 @@
+gnome-terminal --tab -t Guard -e "bundle exec rspec" --tab -t Git --tab -t Misc
