@@ -1,1 +1,2 @@
-gnome-terminal --tab -t Guard -e "bundle exec rspec" --tab -t Git --tab -t Misc
+#!/bin/bash
+gnome-terminal --tab -t Guard --tab -t Git --tab -t "Rails Console" --tab -t Misc
